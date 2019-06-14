@@ -7,7 +7,7 @@ These messages define a RPC protocol for clients to interact with each other.
 
 This application protocol is classified under the `RPC` command.
 
-All referenced data structures can be found in the [Beacon Chain](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md#data-structures) specification.
+All referenced data structures can be found in the [Beacon Chain](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md#data-structures) specification and should be serialized as SSZ Containers.
 
 The body of the RPC calls must conform to:
 ```
