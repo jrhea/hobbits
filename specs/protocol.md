@@ -48,18 +48,18 @@ EWP 0.2 RPC 0 25
 ```
 # Request
 EWP 0.2 RPC 0 1234
-<1234 bytes of deflate compressed binary bson body data>
+<1234 bytes binary body data>
 # Response
 EWP 0.2 RPC 321 1234
-<321 bytes of gzip compressed binary bson header data>
-<1234 bytes of gzip compressed binary bson body data>
+<321 bytes of binary header data>
+<1234 bytes of binary body data>
 ```
 
 #### Gossip
 ```
 # Request (Gossip call with a full block)
 EWP 0.2 GOSSIP 25 1234
-<25 bytes of header data>
-<1234 bytes of body data>
+<25 bytes of binary header data>
+<1234 bytes of binary body data>
 ```
 
